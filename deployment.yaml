@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: html-container
-          image: vnathanw/image-push:${TAG_NAME}
+          image: vnathanw/image-push:${dockerImageTag}
           ports:
             - containerPort: 80
